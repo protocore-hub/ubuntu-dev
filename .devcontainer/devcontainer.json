@@ -4,5 +4,6 @@
     "dockerfile": "Dockerfile"
   },
   "settings": {},
-  "postCreateCommand": "sudo service ssh start"
+  "postCreateCommand": "sudo service ssh start",
+  "postStartCommand": "bash /workspaces/ubuntu-dev/.devcontainer/startup.sh"
 }
