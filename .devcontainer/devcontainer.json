@@ -1,0 +1,8 @@
+{
+  "name": "ARM Cortex-A8 Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {},
+  "postCreateCommand": "sudo service ssh start"
+}
